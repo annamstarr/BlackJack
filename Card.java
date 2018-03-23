@@ -22,12 +22,12 @@ public class Card extends Deck
     
     public int getValue()
     {
-        return value;
+        return this.value;
     }
     
     public String getSuit()
     {
-        return suit;
+        return this.suit;
     }
     
     public void setValue()

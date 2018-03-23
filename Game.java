@@ -15,19 +15,33 @@ public class Game
         
     }
     
-    public void playGame()
+    public void play()
     {
         
+        
+        //while (d.getValue() <= 22 && p.getValue() <= 22)
+        //{
+        //    d.playTurn();
+        //    p.playTurn();
+        //}
+       // endGame();
     }
     
-    public void determineWinner()
+    public String determineWinner()
     {
-        
+        //if (d.getHandTotal() >= 21)
+        //{
+        //    return "Sorry, the dealer won.";
+        //}
+        //else
+        //{
+            return "You won!";
+        //}
     }
     
     public void endGame()
     {
-        
+        determineWinner();
     }
 
 }
